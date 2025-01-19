@@ -1,6 +1,6 @@
-# Android Messages™ Desktop ![master status](https://github.com/OrangeDrangon/android-messages-desktop/actions/workflows/master.yml/badge.svg)
+# MessagesL™ Desktop ![master status](https://github.com/OrangeDrangon/android-messages-desktop/actions/workflows/master.yml/badge.svg)
 
-Run Android Messages as a desktop app, a la iMessage. For those of us that prefer not to have a browser tab always open for this sort of thing.
+Run MessagesL as a desktop app, a la iMessage. For those of us that prefer not to have a browser tab always open for this sort of thing.
 
 **Not affiliated with Google in any way. Android is a trademark of Google LLC.**
 

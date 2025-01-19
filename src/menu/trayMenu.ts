@@ -5,7 +5,7 @@ import { separator } from "./items/separator";
 
 export const trayMenuTemplate: MenuItemConstructorOptions[] = [
   {
-    label: "Show/Hide Android Messages",
+    label: "Show/Hide MessagesL",
     click: (): void => {
       const mainWindow = getMainWindow();
       if (mainWindow != null) {
@@ -23,7 +23,7 @@ export const trayMenuTemplate: MenuItemConstructorOptions[] = [
   },
   separator,
   {
-    label: "Quit Android Messages",
+    label: "Quit MessagesL",
     click: (): void => {
       app.quit();
     },

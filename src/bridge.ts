@@ -70,7 +70,7 @@ const preload_init = () => {
 
       const title = document.head.querySelector("title");
       if (title != null) {
-        title.innerText = "Android Messages";
+        title.innerText = "MessagesL";
       }
     });
 

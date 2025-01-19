@@ -1,8 +1,8 @@
 module.exports = {
-  appId: "pw.kmr.amd",
+  appId: "me.antiphonl.messagesl",
   artifactName: "${productName}-v${version}-${os}-${arch}.${ext}",
-  productName: "Android Messages",
-  copyright: "Copyright 2020 Kyle Rosenberg",
+  productName: "MessagesL",
+  copyright: "Copyright 2025 Derek Hu",
   files: ["app/**/*", "resources/**/*"],
   directories: {
     buildResources: "resources",
@@ -10,14 +10,14 @@ module.exports = {
   },
   linux: {
     target: ["AppImage", "snap", "deb", "pacman", "rpm", "freebsd", "zip"],
-    executableName: "AndroidMessages",
+    executableName: "MessagesL",
     executableArgs: [
       "--ozone-platform-hint=auto",
       "--enable-features=WaylandWindowDecorations",
     ],
     category: "Internet",
     desktop: {
-      Name: "Android Messages Desktop",
+      Name: "MessagesL",
     },
   },
   win: {

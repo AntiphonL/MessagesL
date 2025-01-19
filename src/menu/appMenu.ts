@@ -9,7 +9,7 @@ import { settingsMenu } from "./settingsMenu";
 
 // This is the "Application" menu, which is only used on macOS
 export const appMenuTemplate: MenuItemConstructorOptions = {
-  label: "Android Messages",
+  label: "MessagesL",
   submenu: [
     aboutMenuItem,
     checkForUpdatesMenuItem,
@@ -21,7 +21,7 @@ export const appMenuTemplate: MenuItemConstructorOptions = {
     settingsMenu,
     separator,
     {
-      label: "Hide Android Messages Desktop",
+      label: "Hide MessagesL",
       accelerator: "Command+H",
       click: (): void => app.hide(),
     },

@@ -3,7 +3,7 @@ import { app, MenuItemConstructorOptions } from "electron";
 import path from "path";
 import { RESOURCES_PATH } from "../../helpers/constants";
 
-const productName = "Android Messages Desktop";
+const productName = "MessagesL Desktop";
 const localeStyle =
   "-webkit-app-region: no-drag; position: absolute; left: 0.5em; bottom: 0.5em; font-size: 12px; color: #999";
 const disclaimerText =
@@ -15,7 +15,7 @@ let descriptionWithLocale = "";
 app.on("ready", () => {
   languageCode = app.getLocale();
   // about-window does not have a field for arbitrary HTML, so we add the HTML we need to an existing field
-  descriptionWithLocale = `Messages for web, as a desktop app. <a href="https://github.com/OrangeDrangon/android-messages-desktop">Github Repo</a><span style="${localeStyle}">${languageCode}</span>`;
+  descriptionWithLocale = `MessagesL, as a desktop app. <a href="https://github.com/AntiphonL/MessagesL">Github Repo</a><span style="${localeStyle}">${languageCode}</span>`;
 });
 
 export const aboutMenuItem: MenuItemConstructorOptions = {
@@ -23,7 +23,7 @@ export const aboutMenuItem: MenuItemConstructorOptions = {
   click: () => {
     openAboutWindow({
       icon_path: path.resolve(RESOURCES_PATH, "icons", "512x512.png"),
-      copyright: `<div style="text-align: center">Copyright (c) 2020 Kyle Rosenberg${disclaimerText}${licenseText}</div>`,
+      copyright: `<div style="text-align: center">Copyright (c) 2025 Derek Hu${disclaimerText}${licenseText}</div>`,
       product_name: productName,
       description: descriptionWithLocale,
       open_devtools: false,

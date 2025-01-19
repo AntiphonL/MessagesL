@@ -70,7 +70,7 @@ export class TrayManager {
         this.tray = new Tray(this.getIconPath(), guid);
         const trayContextMenu = Menu.buildFromTemplate(trayMenuTemplate);
         this.tray.setContextMenu(trayContextMenu);
-        this.tray.setToolTip("Android Messages");
+        this.tray.setToolTip("MessagesL");
         this.setupEventListeners();
       }
     }
@@ -168,9 +168,9 @@ export class TrayManager {
     if (IS_WINDOWS && trayEnabled.value) {
       if (!seenMinimizeToTrayWarning.value && this.tray != null) {
         this.tray.displayBalloon({
-          title: "Android Messages",
+          title: "MessagesL",
           content:
-            "Android Messages is still running in the background. To close it, use the File menu or right-click on the tray icon.",
+            "MessagesL is still running in the background. To close it, use the File menu or right-click on the tray icon.",
         });
         seenMinimizeToTrayWarning.next(true);
       }

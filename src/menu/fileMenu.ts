@@ -12,7 +12,7 @@ export const fileMenuTemplate: MenuItemConstructorOptions = {
     installUpdatesMenuItem,
     separator,
     {
-      label: "Quit Android Messages",
+      label: "Quit MessagesL",
       click: (): void => app.quit(),
     },
   ],
